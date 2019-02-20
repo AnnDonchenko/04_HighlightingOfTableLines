@@ -1,0 +1,50 @@
+table {
+	margin: 0 auto;
+	width: -moz-max-content;
+	width: -webkit-max-content;
+	width: max-content;
+	line-height: 1.6;
+	border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table tbody td {
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid #ccddde;
+	padding: 4px 8px;
+}
+
+/* модификации */
+.mod-type-table {
+	width: 100%;
+}
+
+.mod-type-table tr:nth-child(-n+1) td {
+	background-color: #effaf6;
+	font-weight: bold;
+}
+
+.mod-type-table a {
+	display: block;
+	color: #404040;
+	padding: 5px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.mod-type-table tr td {
+	padding: 2px 8px;
+}
+
+.mod-type-table tr:nth-child(n+2) td:first-child {
+	padding: 0;
+}
+
+.mod-type-table tr:nth-child(n+2) td:first-child:hover {
+	background: #F8DADE;
+}
+
+td.highlight {
+	background: #FBF1F2;
+}
